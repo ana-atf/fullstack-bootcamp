@@ -1,0 +1,48 @@
+/* .row {
+    border: 1px solid red;
+} */
+
+.background1 {
+    background-image: url("file:///C:/Users/sguer/Desktop/Neoland/work%20space/dia4/ejercicio8/background.jpg");  
+    padding: 100px 0;
+    height: 650px;
+    color: white;
+    
+}
+
+.background2 {
+    background: rgb(70, 154, 224);
+    color: white;
+    padding: 100px 15px;
+
+}
+
+.background3 {
+    padding: 100px 15px;
+
+}
+
+.background5 {
+    background: black;
+    padding: 50px 0;
+}
+
+.background6 {
+    background: black;
+    color: white;
+}
+
+span {
+    font-weight: bold;
+}
+
+.icon {
+    font-size: 20px;
+    color: white;
+
+}
+.icon:hover {
+    color: red;
+
+
+}

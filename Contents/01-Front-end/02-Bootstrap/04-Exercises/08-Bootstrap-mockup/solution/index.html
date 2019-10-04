@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stylus</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- primera seccion -->
+    <div class="background1">
+        <h1>Styl.us</h1>
+        <br>
+        <h3>Turn your pen into you best friend</h3>
+        <h3>Make every line you write count.</h3>
+        <br>
+        <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">GET
+            YOUR STYLUS</button>
+    </div>
+    <!-- segunda seccion -->
+
+    <div class="row background2">
+        <div class="col-12">
+            <img src="http://lewagon.github.io/bootstrap-challenges/shared/images/paper.svg" alt="">
+            <h5>Natural writing</h5>
+            <p>Don't change your habits, write with a pen <span>on paper notebooks</span></p>
+        </div>
+        <div class="col-12">
+            <img src="http://lewagon.github.io/bootstrap-challenges/shared/images/computer.svg" alt="">
+            <h5>Sync. copy</h5>
+            <p>Stylus instantaneously copy your text on your computer, <span>in real-time</span></p>
+        </div>
+        <div class="col-12">
+            <img src="http://lewagon.github.io/bootstrap-challenges/shared/images/analytics.svg" alt="">
+            <h5>Analytics</h5>
+            <p>Get feedbacks on the way you write, <span>your favorite words, your frequent mistakes</span></p>
+        </div>
+        <div class="col-12">
+            <img src="http://lewagon.github.io/bootstrap-challenges/shared/images/data.svg" alt="">
+            <h5>Storing your texts</h5>
+            <p>Everything line writen with your stylus is stored in the cloud, so that <span>it's never lost</span></p>
+        </div>
+    </div>
+
+    <!-- tercera seccion -->
+
+    <div class="row background3">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <h3 class="text-center">Get news from stylus</h3>
+            <p class="text-center">Leave us your mail and get stylus news</p>
+            <form class="form-inline">
+                <div class="form-group mb-2">
+                    <label for="staticEmail2" class="sr-only">Email</label>
+                </div>
+                <div class="form-group mx-sm-3 mb-2">
+                    <label for="staticEmail2" class="sr-only">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                    <button type="button" class="btn btn-primary ml-2">Subscribe</button>
+                </div>
+            </form>
+
+        </div>
+        <div class="col-4"></div>
+    </div>
+
+    <!-- cuarta seccion -->
+
+    <div class="row">
+        <div class="col-12">
+            <div id="map" style="width: 100%; height: 400px;"></div>
+
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+            <script type="text/javascript">
+                var myLatlng = new google.maps.LatLng(48.852937, 2.364178);
+
+                var myOptions = {
+                    zoom: 16,
+                    center: myLatlng,
+                    scrollwheel: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    styles: [] // TODO: replace [] by array from https://snazzymaps.com/
+                };
+
+                var map = new google.maps.Map(document.getElementById('map'), myOptions);
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: "You are here!"
+                });
+            </script>
+        </div>
+
+    </div>
+
+
+    <!-- quinta seccion -->
+
+    <div class="row background5">
+        <div class="col-1 icon">
+            <i class="fa fa-youtube"></i>
+        </div>
+        <div class="col-1 icon">
+            <i class="fa fa-instagram"></i>
+        </div>
+        <div class="col-1 icon">
+            <i class="fa fa-facebook"></i>
+        </div>
+        <div class="col-1 icon">
+            <i class="fa fa-twitter"></i>
+        </div>
+        <div class="col-8"></div>
+    </div>
+
+    <!-- sexta seccion -->
+
+    <div class="row background6">
+        <div class="col-12">
+            <p>Stylus is a fictive product by LeWagon</p>
+        </div>
+
+    </div>
+
+
+
+
+
+
+</body>
+
+<footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+
+</footer>
+
+</html>

@@ -1,0 +1,11 @@
+p {
+    animation: move 3s;
+}
+
+
+@keyframes move {
+    from {color: red}
+    to {color: green}
+    }
+    
+}

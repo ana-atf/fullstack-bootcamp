@@ -1,0 +1,113 @@
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/footer.css");
+@import url("components/card.css");
+@import url("components/feature.css");
+
+body {
+  margin: 0;
+  font-family: Open-sans, sans-serif;
+}
+h1, h2, h3 {
+  font-family: Raleway, Helvetica, sans-serif;
+}
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+.padded {
+  padding: 100px 0;
+}
+.wrapper-grey {
+  background: #F4F4F4;
+}
+
+.BorderRC {
+    border: 2px solid red;
+}
+
+.card-img-top {
+  width: 15% !important;
+  display: block;
+  margin: auto;
+ 
+}
+
+.imagesRowSecond {
+  width: 100px !important; 
+}
+
+.card-body {
+  text-align: center;
+}
+
+.BackgroungParis {
+  background-image: url(file:///C:/Users/sguer/Desktop/Neoland/work%20space/dia5/ejercicio10/images/card-paris.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  
+ }
+
+
+ 
+ .BackgroungBrussels {
+  background-image: url(file:///C:/Users/sguer/Desktop/Neoland/work%20space/dia5/ejercicio10/images/card-brussels.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+ }
+
+ .BackgroungLondon {
+  background-image: url(file:///C:/Users/sguer/Desktop/Neoland/work%20space/dia5/ejercicio10/images/card-london.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+ }
+
+
+.imageFourRow {
+  margin: 0 !important;
+
+}
+
+.textParis {
+  text-align: left !important;
+  padding: 0 0 !important;
+
+}
+
+
+.cuadros {
+  border: none !important;
+  border-radius: 0%;
+
+
+} 
+
+.background5 {
+  padding: 50px 15px;
+
+}
+
+.background6 {
+  background: black;
+  color: white;
+  padding: 50px 30px;
+  
+}
+
+.iconSize {
+ font-size: 200%;
+}
+
+.icon:hover {
+  color: yellow;
+
+}
+
+#textofinal {
+  font-size: 15px;
+}

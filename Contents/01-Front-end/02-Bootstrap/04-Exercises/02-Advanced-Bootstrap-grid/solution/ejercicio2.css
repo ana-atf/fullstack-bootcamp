@@ -1,0 +1,45 @@
+/* .row {
+	border: 2px solid red;
+} */
+
+/* .columna {
+    
+        border: 2px solid red;  
+} */
+
+.bg-blue {
+    background: #3079AB;
+    color: white;
+  }
+
+  .card-white {
+    background: white;
+    padding: 30px;
+    box-shadow: 1px 1px 2px #e7e7e7;
+    border-radius: 4px;
+    margin: 20px 50px;
+  }
+
+  .card {
+      text-align: center;
+  }
+
+
+
+  span {
+      font-weight: bold; 
+  }
+
+ .card-body {
+     text-align: center;
+ }
+
+ h3, h4 {
+     text-align: center;
+ }
+
+ .card__properties {
+     margin: 15px;
+     
+ }
+  
